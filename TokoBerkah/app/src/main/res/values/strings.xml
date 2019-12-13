@@ -1,0 +1,9 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">TokoBerkah</string>
+    <string name="order_summary_nama">nama : <xliff:g example="Dandi" id="nama">%s</xliff:g></string>
+    <string name="order_summary_alamat">alamat :  <xliff:g example="Griya Sejahtera" id="alamat">%s</xliff:g></string>
+    <string name="order_barang">barang : <xliff:g example="Lemari" id="barang">%s</xliff:g></string>
+    <string name="order_jumlah">jumlah : <xliff:g example="1" id="jumlah">%s</xliff:g></string>
+    <string name="thank_you">Terima Kasih Telah Memesan</string>
+    <string name="order_summary_email_subject">Pesan Produk<xliff:g example="Dandi" id="nama">%s</xliff:g></string>
+</resources>

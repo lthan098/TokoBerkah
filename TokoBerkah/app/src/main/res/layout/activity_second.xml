@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".SecondActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/berandatoko"
+            android:scaleType="fitCenter"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menu"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <Button
+                    android:id="@+id/btn_Katalog"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:text="Katalog"
+                    android:layout_gravity="center"
+                    />
+                <Button
+                    android:id="@+id/btn_Foto"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:text="Hubungi Kami"
+                    android:layout_gravity="center"
+                    />
+                />
+                <Button
+                    android:id="@+id/btn_About"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="About"
+                    android:layout_gravity="center"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kembali"
+            android:onClick="onClick"
+            android:layout_marginLeft="300dp"
+            >
+        </Button>
+    </LinearLayout>
+
+</ScrollView>

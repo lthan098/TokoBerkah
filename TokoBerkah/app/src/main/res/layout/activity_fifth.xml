@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FifthActivity"
+    android:background="@drawable/background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TOKO BERKAH"
+            android:layout_gravity="center"
+            android:textSize="32dp"
+            android:textColor="@android:color/black">
+        </TextView>
+        <ImageView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/toko3"
+            >
+        </ImageView>
+        <ImageView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/toko2"
+            >
+        </ImageView>
+        <ImageView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/toko1"
+            >
+        </ImageView>
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toko Berkah merupakan sebuah toko yang begerak pada bidang penjualan alat-alat rumah tangga yang di ekspor dari berbagai Negara di seluruh dunia, Toko Berkah ini berdiri sejak 2014 dan memiliki 2 cabang yang berada di kota Lahat,Sumatra Selatan Indonesia. Kegiatan usaha perusahaan ini, yaitu menjalankan usaha penyediaan alat-alat rumah tangga seperti alat-alat memasak, lemari, d.l.l"
+            android:textSize="18sp"
+            android:textColor="@android:color/black">
+        </TextView>
+        <Button
+            android:id="@+id/btn_Map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lihat Lokasi"
+            android:layout_marginLeft="150dp"
+            />
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kembali"
+            android:onClick="onClick"
+            >
+        </Button>
+    </LinearLayout>
+</ScrollView>

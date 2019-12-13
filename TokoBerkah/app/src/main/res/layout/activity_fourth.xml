@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FourthActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:theme="@style/AppTheme"
+    >
+
+    <LinearLayout
+        android:background="#44FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/logo01"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data Diri"
+            android:textSize="26dp"
+            android:textColor="#000"/>
+        <EditText
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NAMA" />
+
+        <EditText
+            android:id="@+id/alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ALAMAT" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pesanan"
+            android:textSize="24dp"
+            android:textColor="#000"/>
+        <EditText
+            android:id="@+id/barang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="BARANG" />
+
+        <EditText
+            android:id="@+id/jumlah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="JUMLAH" />
+
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/request"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ORDER"
+            android:onClick="submitOrder"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+
+</LinearLayout>
